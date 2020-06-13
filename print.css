@@ -1,0 +1,33 @@
+body table.mt{background:#fff; width:650; height:100%}
+.title{text-align:center}
+.title h1{font:30px 'times new roman'; font-weight:bold; margin:0px}
+.body{height:100%; vertical-align:top; padding:10px}
+.toolbar, .menu, .listTop, .searchForm{display:none}
+.footer{height:30px; background:#557F2A; text-align:center; color:#fff}
+.footer a, .footer a:visited, .footer a:hover{font:13px verdana; color:#fff}
+table.list{width:100%; background:#A5AD95}
+table.list tr th{font:16px verdana; font-weight:bold; color:#fff; background:#557F2A}
+table.list tr.a{color:#27472D; background:#F1F9E3}
+table.list tr.b{color:#27472D; background:#ffffff}
+table.list tr th.k, table.list tr td.k{display:none}
+#infoLine{font-weight:bold; font-size:16px}
+.toolbar{display: none;}
+.menu_head{display: none;}
+#export{display: none;}
+.edit{width:100%; margin-top:10; margin-bottom:10; background:#EC7C1A}
+.edit th{width:0px; text-align:left; font:13px tahoma; background:#ECD3BF; white-space:nowrap; vertical-align:top}
+.edit td{font:13px verdana; background:#fff; vertical-align:top}
+.list{width:100%; background:#EC7C1A}
+.list tr th{font:bold 12px verdana; color:#BF5F12; background:#ECD3BF}
+.list tr td{font-size:11px; vertical-align:top}
+.list tr{background:#ffffff}
+.list tr.b100{background:#E7E9ED}
+.list tr .k{white-space:nowrap; cursor:default; background:#F4F7FB}
+
+.list tr td.k input{border:none; background:transparent; width:65px; font-size:12px}
+.list tr td.k button{font-size:11px; height:20px}
+
+.list th.head, .details th.head, .edit th.head{text-align:left; background:#79A7EC; color:#fff; font-weight:bold;}
+.list th.head2, .details th.head2, .edit th.head2{text-align:left; background:orangered; color:#fff; font-weight:bold;}
+@page{margin:0px auto;}
+#print{display: none;}
